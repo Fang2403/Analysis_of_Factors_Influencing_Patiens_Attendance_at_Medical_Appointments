@@ -1,13 +1,11 @@
 <a id='intro'></a>
-## Introduction
+### Project Overview
 
-Why do 30% of patients miss their scheduled appointments?
-
-This project is aim to analyze what factors are important for us to know in order to predict if a patient will show up for their scheduled appointment?.
+This project is dedicated to analyzing and predicting patient attendance at scheduled medical appointments. Utilizing a dataset sourced from 100,000 medical appointments in Brazil, available on [Kaggle](https://www.kaggle.com/datasets/joniarroba/noshowappointments), the focus is on identifying key factors that influence whether patients miss their appointments. By understanding these determinants, healthcare providers can develop strategies to improve attendance rates, thus enhancing healthcare delivery and resource management.
 
 ### Dataset Description 
 
-This dataset(original source on [Kaggle](https://www.kaggle.com/datasets/joniarroba/noshowappointments)) collects information from 100k medical appointments in Brazil and is focused on the question of whether or not patients show up for their appointment. The dataset contains several variables that could potentially impact patient attendance at appointments.
+The dataset comprises various attributes that could potentially influence whether patients attend their scheduled medical appointments. These attributes include demographic information, health characteristics, appointment details, and socio-economic indicators among others.
 
 **Data Dictionary**
 
@@ -38,11 +36,20 @@ This dataset(original source on [Kaggle](https://www.kaggle.com/datasets/joniarr
 * SMS_received: Indicates whether the patient received an SMS reminder for the appointment (0 for no, 1 for yes).
   
 *  No-show: Tells us if the patient did not show up to their appointment; "No" if they did show up, and "Yes" if they did not.
-  
-### Question for Analysis
 
-* Is there any factor that would impact patients apperance? 
+### Objective
 
-* If yes, what are the main three factors?
+The primary aim of this analysis is to identify significant predictors of patient no-shows and to build a predictive model that can forecast the likelihood of a patient missing their appointment. This insight will be crucial for healthcare practitioners and administrators aiming to devise effective interventions to reduce no-show rates.
 
-* If sending SMS reminder to patient boost the showing rate?
+### Expected Outcomes
+
+Through detailed exploratory data analysis and predictive modeling, this project expects to:
+
+1. Uncover the main reasons behind patient absence.
+3. Provide recommendations on how to address these issues to improve appointment attendance.
+3.Develop a reliable predictive model that can be used by healthcare facilities to anticipate and mitigate potential absence.
+
+### Contributions
+
+Contributions to this project are welcome, particularly in the areas of data analysis, model enhancement, and interpretation of results. Contributors are encouraged to fork this repository and propose changes through pull requests.
+
