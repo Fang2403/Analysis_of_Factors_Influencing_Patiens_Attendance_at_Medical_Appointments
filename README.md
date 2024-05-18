@@ -46,8 +46,8 @@ The primary aim of this analysis is to identify significant predictors of patien
 Through detailed exploratory data analysis and predictive modeling, this project expects to:
 
 1. Uncover the main reasons behind patient absence.
-3. Provide recommendations on how to address these issues to improve appointment attendance.
-3.Develop a reliable predictive model that can be used by healthcare facilities to anticipate and mitigate potential absence.
+2. Provide recommendations on how to address these issues to improve appointment attendance.
+3. Develop a reliable predictive model that can be used by healthcare facilities to anticipate and mitigate potential absence.
 
 ### Contributions
 
